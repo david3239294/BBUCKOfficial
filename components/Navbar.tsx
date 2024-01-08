@@ -18,10 +18,11 @@ const Navbar = () => {
   const menu = [
     { name: "Home", href: "/", icon: faHouseChimney },
     { name: "About", href: "/about", icon: faStop },
+    { name: "Voltichange", href: "/Voltichange", icon: faCubes },
     { name: "RoadMap", href: "/work", icon: faChartPie },
     { name: "Whitepaper", href: "/projects", icon: faCubes },
-    { name: "Tokenomics", href: "/contact", icon: faStop },
-    { name: "Audit+KYC", href: "/Audit", icon: faStop },
+    { name: "Tokenomics", href: "/contact", icon: faCubes },
+    { name: "Audit+KYC", href: "/Audit", icon: faCubes },
   ];
   const bgMusicSfx = "./sounds/RoadsideFlowers.mp3";
   const [isShownHoverContent, setIsShownHoverContent] = useState<boolean>(false);
