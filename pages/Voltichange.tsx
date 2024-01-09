@@ -71,6 +71,17 @@ const Voltichange: NextPage = () => {
           </button>
   
         </a>
+        <a href="https://bbuckstaking.netlify.app/" target="_blank">
+          <button
+            className={`resume-button h-fit w-fit px-5 py-2 text-md text-accent shadow-md font-semibold mb-3 ${spaceBoards.className}`}
+            onMouseEnter={() => playSnap()}
+            onMouseLeave={() => stopSnap()}
+            onClick={() => playConfirm()}
+          >
+          Stake Your $BBUCK here!
+          </button>
+  
+        </a>
      </div>
      
 
