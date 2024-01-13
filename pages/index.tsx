@@ -111,7 +111,7 @@ const SplineObj: NextPage = () => {
       
       </div>
       <div className="rotating-text-container">
-        <div className="rotating-text">BSC | 0x839862D20fa50Fa9be9EB042E83A6bdD0594Ee2c</div>
+        <div className="rotating-text">BSC | 0x2eed221CBA1A3d625425bBecAF61C2fCBD3179C9</div>
       
       </div>
       <div className="rotating-text-container">

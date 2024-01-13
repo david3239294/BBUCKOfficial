@@ -53,7 +53,7 @@ const About: NextPage = () => {
           Decimals | 18
         </p>
         <p className={tasaOrbiter.className}>
-          Contract Address | 0x839862D20fa50Fa9be9EB042E83A6bdD0594Ee2c
+          Contract Address | 0x2eed221CBA1A3d625425bBecAF61C2fCBD3179C9
         </p>
         <p className="hidden w-full h-5 sm:block"></p>
         <a href="https://t.me/BabyBuckPortal" target="_blank">
