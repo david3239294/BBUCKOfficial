@@ -40,7 +40,7 @@ const Audit : NextPage = () => {
 </p>
 
 <p className={tasaOrbiter.className}>
-          Contract Address BSC | 0x390BD80f4c8d0d1Bf360392790263b8c7808835D
+          Contract Address BSC | 0x839862D20fa50Fa9be9EB042E83A6bdD0594Ee2c
         </p>
         <p className={tasaOrbiter.className}>
           Contract Address SOL | Pending Launch!

@@ -44,7 +44,7 @@ const Voltichange: NextPage = () => {
           So try it out!
         </p>
         <p className={tasaOrbiter.className}>
-          Contract Address | 0x390BD80f4c8d0d1Bf360392790263b8c7808835D
+          Contract Address | 
         </p>
 
         <p className="hidden w-full h-5 sm:block"></p>

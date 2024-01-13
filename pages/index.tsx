@@ -103,7 +103,11 @@ const SplineObj: NextPage = () => {
       
       </div>
       <div className="rotating-text-container">
-        <div className="rotating-text">BSC | 0x390BD80f4c8d0d1Bf360392790263b8c7808835D</div>
+        <div className="rotating-text">We Have Relaunched with a better, More secure contract! All Holders of v1 has been Airdropped!</div>
+      
+      </div>
+      <div className="rotating-text-container">
+        <div className="rotating-text">BSC | 0x839862D20fa50Fa9be9EB042E83A6bdD0594Ee2c</div>
       
       </div>
       <div className="rotating-text-container">
