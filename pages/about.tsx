@@ -12,10 +12,10 @@ const About: NextPage = () => {
   return (
     <>
       <Head>
-        <title>About | BabyBuck</title>
+        <title>About | GrokLabs</title>
         <meta
           name="description"
-          content="About | BabyBuck"
+          content="About | GrokLabs"
         />
       </Head>
       <div className="z-0 h-screen">
@@ -28,23 +28,21 @@ const About: NextPage = () => {
         <div
           className={`ml-16 sm:ml-0 text-3xl md:text-4xl xl:text-5xl animated-heading bold md:mb-10 ${spaceBoards.className}`}
         >
-          About BabyBuck
+          About GrokLabs
         </div>
         <p className={tasaOrbiter.className}>
-          Step into a world where internet memes meet Crypto legends, and creativity meets the thrill of Winning. Introducing BabyBuck (BBUCK), a pioneering cryptocurrency inspired by the iconic meme sensation, BUCKTOKEN and SHIBA-Inu. This extraordinary blend captures the spirit of humor, online culture, and excellence in one unique coin.
+          Step into a world where internet memes meet Crypto legends, and creativity meets the thrill of Winning. Introducing GrokLabs, a pioneering cryptocurrency inspired by the iconic meme sensation, Grokinu. This extraordinary blend captures the spirit of humor, online culture, and excellence in one unique coin.
           
          
         </p>
+       
         <p className={tasaOrbiter.className}>
-          You know how big the Original BUCKTOKEN was, Now it&apos;s time for BabyBuck!
-        </p>
-        <p className={tasaOrbiter.className}>
-          So, Embrace the fusion of BBUCK&apos;s playful charm and Shiba-inu&apos;s Fiery heart.
-          Join the BabyBuck($BBUCK) revolution and embark on a journey that blends humor, Money generating, and financial empowerment into one extraordinary coin.
+          So, Embrace the fusion of GrokLab&apos;s playful charm and Grokinu&apos;s Fiery heart.
+          Join the GrokLabs revolution and embark on a journey that blends humor, Money generating, and financial empowerment into one extraordinary coin.
           <br />
         </p>
         <p className="hidden w-full h-5 sm:block"></p>
-        <a href="https://t.me/BabyBuckPortal" target="_blank" rel="noopener noreferrer">
+        <a href="https://t.me/GrokLabsOfficial" target="_blank" rel="noopener noreferrer">
           <button
             className={`resume-button h-fit w-fit px-5 py-2 text-md text-accent shadow-md font-semibold mb-3 ${spaceBoards.className}`}
             onMouseEnter={() => playSnap()}
@@ -54,14 +52,14 @@ const About: NextPage = () => {
             Join Telegram Here
           </button>
         </a>
-        <a href="https://bbuckstaking.netlify.app/" target="_blank" rel="noopener noreferrer">
+        <a href="Just kidden! , coming Soon!" target="_blank" rel="noopener noreferrer">
           <button
             className={`resume-button h-fit w-fit px-5 py-2 text-md text-accent shadow-md font-semibold mb-3 ${spaceBoards.className}`}
             onMouseEnter={() => playSnap()}
             onMouseLeave={() => stopSnap()}
             onClick={() => playConfirm()}
           >
-           Stake Your $BBUCK here!
+           Stake Your GrokLabs Here!
           </button>
         </a>
       </div>

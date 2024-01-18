@@ -25,21 +25,15 @@ const SocialLink = ({ item }) => {
 const Socials = () => {
   const social = [
     {
-      name: "GitHub",
-      icon: faGithub,
-      link: "https://github.com/BabyBuckCoin/BabyBuckCoin-", // Replace with the actual GitHub profile link
-      brandColor: "#802bfc",
-    },
-    {
-      name: "GitHub",
+      name: "Twitter",
       icon: faTwitterSquare,
-      link: "https://twitter.com/baby_buck_coin", // Replace with the actual GitHub profile link
+      link: "https://twitter.com/GrokLabsOffical", // Replace with the actual GitHub profile link
       brandColor: "#802bfc",
     },
     {
       name: "Telegram",
       icon: faTelegram,
-      link: "https://t.me/BabyBuckPortal",
+      link: "https://t.me/GrokLabsOfficial",
       brandColor: "#0062ff",
     },
     {
@@ -51,7 +45,7 @@ const Socials = () => {
   ];
 
   return (
-    <div className="flex flex-row justify-evenly content-center gap-2">
+    <div className="flex flex-row content-center gap-2 justify-evenly">
       {social.map((item, index) => (
         <SocialLink key={index} item={item} />
       ))}

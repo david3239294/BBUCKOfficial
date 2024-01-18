@@ -37,12 +37,12 @@ const SplineObj: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Home | BabyBuck</title>
+        <title>Home | GrokLabs</title>
         <meta
           name="google-site-verification"
           content="J9uDTeg3iujyef0pzqJ7s7xDlmizshJEn0767--L3nA"
         />
-        <meta name="description" content="Home | BabyBuck" />
+        <meta name="description" content="Home |GrokLabs" />
         <style>
           {`
             body,
@@ -99,25 +99,15 @@ const SplineObj: NextPage = () => {
         {/* SplineViewers will be dynamically created here */}
       </div>
       <div className="rotating-text-container">
-        <div className="rotating-text">Welcome To BabyBuck</div>
+        <div className="rotating-text">Welcome To Groks Labratory!</div>
       
       </div>
+ 
       <div className="rotating-text-container">
-        <div className="rotating-text">We Have Relaunched with a better, More secure contract!</div>
+        <div className="rotating-text">BSC | 0xce3559f5B5fc02b1cEc6212D1FCEC65E080D8C66</div>
       
       </div>
-      <div className="rotating-text-container">
-        <div className="rotating-text">All Holders have been successfully Airdropped!</div>
-      
-      </div>
-      <div className="rotating-text-container">
-        <div className="rotating-text">BSC | 0x2eed221CBA1A3d625425bBecAF61C2fCBD3179C9</div>
-      
-      </div>
-      <div className="rotating-text-container">
-        <div className="rotating-text">SOL | Pending Launch!</div>
-      
-      </div>
+     
     </>
   );
 };

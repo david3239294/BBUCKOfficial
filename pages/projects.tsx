@@ -17,10 +17,10 @@ const Projects: NextPage = () => {
   return (
     <>
       <Head>
-        <title>White Paper | BabyBuck</title>
+        <title>White Paper | GrokLabs</title>
         <meta
           name="description"
-          content="White Paper for BabyBuck"
+          content="White Paper for GrokLabs"
         />
       </Head>
       <style>
@@ -74,24 +74,24 @@ const Projects: NextPage = () => {
         <div>
         <h2>Introduction</h2>
           <p>
-            BabyBuck (BBUCK) emerges as a revolutionary project within the crypto sphere, aiming to redefine the landscape of meme-based tokens. Developed on the principles of decentralization, transparency, and innovation, BBUCK seeks to establish a robust ecosystem that goes beyond traditional meme tokens, offering a secure and sustainable platform for its users.
+           GrokLabs emerges as a revolutionary project within the crypto sphere, aiming to redefine the landscape of meme-based tokens. Developed on the principles of decentralization, transparency, and innovation, BBUCK seeks to establish a robust ecosystem that goes beyond traditional meme tokens, offering a secure and sustainable platform for its users.
           </p>
         <h2>Vision and Objectives</h2>
         <p>
-  At its core, BabyBuck strives to set new benchmarks for meme-based cryptocurrencies. The primary vision extends beyond merely creating a token; it&apos;s about pioneering a movement that redefines perceptions, encourages creative innovations, and fosters long-term growth within the decentralized ecosystem. BBUCK aims to achieve this by implementing a range of strategies and functionalities that promote community engagement, utility, and technological advancement.
+  At its core, GrokLabs strives to set new benchmarks for meme-based cryptocurrencies. The primary vision extends beyond merely creating a token; it&apos;s about pioneering a movement that redefines perceptions, encourages creative innovations, and fosters long-term growth within the decentralized ecosystem. BBUCK aims to achieve this by implementing a range of strategies and functionalities that promote community engagement, utility, and technological advancement.
 </p>
 
 <h2>Reliability and Security</h2>
 <p>
-  Security and reliability form the foundation of BabyBuck&apos;s architecture. The project undergoes rigorous security audits conducted by reputable blockchain security firms. Smart contracts are meticulously developed and regularly audited to ensure the integrity and robustness of the ecosystem. Continuous monitoring, bug bounties, and swift response to potential threats are integral parts of BabyBuck&apos;s security measures.
+  Security and reliability form the foundation of GrokLabs&apos;s architecture. The project undergoes rigorous security audits conducted by reputable blockchain security firms. Smart contracts are meticulously developed and regularly audited to ensure the integrity and robustness of the ecosystem. Continuous monitoring, bug bounties, and swift response to potential threats are integral parts of GrokLabs&apos;s security measures.
 </p>
 <h2>Community Involvement and Governance</h2>
 <p>
-  BabyBuck places immense value on its community, acknowledging that their active participation and contribution are pivotal to the project&apos;s success. The governance model is designed to empower the community, allowing stakeholders to engage in decision-making processes and propose changes or improvements. The community-driven approach ensures inclusivity and fosters a sense of ownership among BBUCK holders.
+  GrokLabs places immense value on its community, acknowledging that their active participation and contribution are pivotal to the project&apos;s success. The governance model is designed to empower the community, allowing stakeholders to engage in decision-making processes and propose changes or improvements. The community-driven approach ensures inclusivity and fosters a sense of ownership among BBUCK holders.
 </p>
 <h2>Conclusion</h2>
 <p>
-  In conclusion, BabyBuck embarks on a journey fueled by a commitment to deliver a secure, reliable, and innovative platform that transcends the limitations of traditional meme projects. By prioritizing community engagement, fostering a culture of innovation, and maintaining technological excellence, BabyBuck aspires to not only make an impact but also set new standards within the decentralized blockchain ecosystem.
+  In conclusion, GrokLabs embarks on a journey fueled by a commitment to deliver a secure, reliable, and innovative platform that transcends the limitations of traditional meme projects. By prioritizing community engagement, fostering a culture of innovation, and maintaining technological excellence, GrokLabs aspires to not only make an impact but also set new standards within the decentralized blockchain ecosystem.
 </p>
         </div>
       </div>

@@ -13,10 +13,10 @@ const About: NextPage = () => {
   return (
     <>
       <Head>
-        <title>About | BabyBuck</title>
+        <title>About | GrokLabs</title>
         <meta
           name="description"
-          content="About | BabyBuck"
+          content="About | Groklabs"
         />
       </Head>
       <div className="z-0 h-screen">
@@ -29,23 +29,17 @@ const About: NextPage = () => {
         <div
           className={`ml-16 sm:ml-0 text-3xl md:text-4xl xl:text-5xl animated-heading bold md:mb-10 ${spaceBoards.className}`}
         >
-          BabyBuck Tokenomics
+          GrokLabs Tokenomics
         </div>
       
         <p className={tasaOrbiter.className}>
-       Total Supply |  1,000,000,000 (One Billion)
-        </p>
-        <p className={tasaOrbiter.className}>
-        
-       100 Million BBUCK has been burned after launch!
-          
-        
+       Total Supply |  1,000,000 (One million)
         </p>
         <p className={tasaOrbiter.className}>
        No max wallet restrictions
         </p>
         <p className={tasaOrbiter.className}>
-     Contract Symbol | $BBUCK
+     Contract Symbol | $GrokLabs
           <br />
 
         </p>
@@ -53,10 +47,11 @@ const About: NextPage = () => {
           Decimals | 18
         </p>
         <p className={tasaOrbiter.className}>
-          Contract Address | 0x2eed221CBA1A3d625425bBecAF61C2fCBD3179C9
+          Contract Address | 0xce3559f5B5fc02b1cEc6212D1FCEC65E080D8C66
+
         </p>
         <p className="hidden w-full h-5 sm:block"></p>
-        <a href="https://t.me/BabyBuckPortal" target="_blank">
+        <a href="https://t.me/GrokLabsOfficial" target="_blank">
           <button
             className={`resume-button h-fit w-fit px-5 py-2 text-md text-accent shadow-md font-semibold mb-3 ${spaceBoards.className}`}
             onMouseEnter={() => playSnap()}
@@ -64,16 +59,6 @@ const About: NextPage = () => {
             onClick={() => playConfirm()}
           >
             Join Telegram Here
-          </button>
-        </a>
-        <a href="https://bbuckstaking.netlify.app/" target="_blank">
-          <button
-            className={`resume-button h-fit w-fit px-5 py-2 text-md text-accent shadow-md font-semibold mb-3 ${spaceBoards.className}`}
-            onMouseEnter={() => playSnap()}
-            onMouseLeave={() => stopSnap()}
-            onClick={() => playConfirm()}
-          >
-                 Stake Your $BBUCK here!
           </button>
         </a>
       </div>

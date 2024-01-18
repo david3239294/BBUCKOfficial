@@ -3,7 +3,7 @@ export const workData = [
         role: 'Quarter 1',
         duration: '2024',
         image: 'Web3ConfIndia23.png',
-        details: `Launch the BabyBuck Official Token on Binance Smart Chain.
+        details: `Launch the GrokLabs Official Token on Binance Smart Chain.
                   Initiate marketing campaigns with influencers and community engagement for widespread recognition.
                  `,
       

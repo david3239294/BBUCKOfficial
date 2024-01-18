@@ -16,7 +16,7 @@ const Audit : NextPage = () => {
         <title>Audit | KYC</title>
         <meta
           name="description"
-          content="About | BabyBuck"
+          content="About | https://t.me/GrokLabsOfficial"
         />
       </Head>
       <div className="z-0 h-screen">
@@ -29,7 +29,7 @@ const Audit : NextPage = () => {
         <div
           className={`ml-16 sm:ml-0 text-3xl md:text-4xl xl:text-5xl animated-heading bold md:mb-10 ${spaceBoards.className}`}
         >
-          BabyBuck Audits+ KYC
+         GrokLabs Audits+ KYC
         </div>
       
         <p className={tasaOrbiter.className}>
@@ -40,15 +40,13 @@ const Audit : NextPage = () => {
 </p>
 
 <p className={tasaOrbiter.className}>
-          Contract Address BSC |  0x2eed221CBA1A3d625425bBecAF61C2fCBD3179C9
+          Contract Address BSC |  0xce3559f5B5fc02b1cEc6212D1FCEC65E080D8C66
 
 
         </p>
-        <p className={tasaOrbiter.className}>
-          Contract Address SOL | Pending Launch!
-        </p>
+      
         <p className="hidden w-full h-5 sm:block"></p>
-        <a href="https://t.me/BabyBuckPortal" target="_blank">
+        <a href="https://t.me/GrokLabsOfficial" target="_blank">
           <button
             className={`resume-button h-fit w-fit px-5 py-2 text-md text-accent shadow-md font-semibold mb-3 ${spaceBoards.className}`}
             onMouseEnter={() => playSnap()}

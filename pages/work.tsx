@@ -11,20 +11,20 @@ const Work: NextPage = () => {
     <>
       <Head>
       
-        <title>RoadMap | BabyBuck</title>
+        <title>RoadMap | GrokLabs</title>
         <meta
           name="description"
-          content="RoadMap | BabyBuck"
+          content="RoadMap | GrokLabs"
         />
       </Head>
       
-      <div className="h-screen w-full flex flex-col items-center p-5 sm:p-0 overflow-auto">
+      <div className="flex flex-col items-center w-full h-screen p-5 overflow-auto sm:p-0">
         <div
           className={`ml-8 sm:ml-0 text-3xl md:text-4xl xl:text-5xl animated-heading bold my-2 md:my-10 ${spaceBoards.className}`}
         >
-          BabyBuck RoadMap Version 1
+         GrokLabs RoadMap Version 1
         </div>
-        <div className="w-full h-full flex flex-col md:grid grid-cols-12 text-gray-50 z-0">
+        <div className="z-0 flex flex-col w-full h-full grid-cols-12 md:grid text-gray-50">
           {workData.map((curElem) => {
             return <ChronoCard key={curElem.duration} curElem={curElem} />;
           })}
