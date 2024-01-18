@@ -18,7 +18,6 @@ const Navbar = () => {
   const menu = [
     { name: "Home", href: "/", icon: faHouseChimney },
     { name: "About", href: "/about", icon: faStop },
-    { name: "Voltichange", href: "/Voltichange", icon: faCubes },
     { name: "RoadMap", href: "/work", icon: faChartPie },
     { name: "Whitepaper", href: "/projects", icon: faCubes },
     { name: "Tokenomics", href: "/contact", icon: faCubes },
