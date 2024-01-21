@@ -33,8 +33,8 @@ const Audit : NextPage = () => {
         </div>
       
         <p className={tasaOrbiter.className}>
-  <a href="#" target="_blank" rel="noopener noreferrer">
-    Audit + KYC (Coming Soon!)
+  <a href="https://github.com/MonstaAudit/Audit-Reports/blob/main/GrokLabs_GrokLabs_Audit.pdf" target="_blank" rel="noopener noreferrer">
+   Check  Audit Here
   </a>
 
 </p>
