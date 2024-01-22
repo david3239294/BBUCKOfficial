@@ -3,37 +3,6 @@ import { NextPage } from 'next';
 import { useEffect } from 'react';
 
 const SplineObj: NextPage = () => {
-  useEffect(() => {
-    const loadSplineViewer = (url: string) => {
-      const script = document.createElement('script');
-      script.src =
-        'https://unpkg.com/@splinetool/viewer@1.0.16/build/spline-viewer.js';
-      script.type = 'module';
-      script.async = true;
-
-      script.onload = () => {
-        const splineViewer = document.createElement('spline-viewer');
-        splineViewer.setAttribute('url', url);
-
-        const container = document.getElementById('spline-container');
-        if (container && !container.querySelector('spline-viewer')) {
-          container.appendChild(splineViewer);
-        }
-      };
-
-      document.body.appendChild(script);
-
-      return () => {
-        document.body.removeChild(script);
-      };
-    };
-
-    // Load first spline viewer
-    loadSplineViewer(
-      './spline/sceneDACCORD.splinecode'
-    );
-  }, []);
-
   return (
     <>
       <Head>
@@ -42,7 +11,7 @@ const SplineObj: NextPage = () => {
           name="google-site-verification"
           content="J9uDTeg3iujyef0pzqJ7s7xDlmizshJEn0767--L3nA"
         />
-        <meta name="description" content="Home |GrokLabs" />
+        <meta name="description" content="Home | GrokLabs" />
         <style>
           {`
             body,
@@ -89,25 +58,19 @@ const SplineObj: NextPage = () => {
                 text-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px red;
               }
             }
-            spline-viewer {
-              margin-bottom: 10px;
-            }
-          `}
+        `}
         </style>
       </Head>
       <div id="spline-container">
-        {/* SplineViewers will be dynamically created here */}
+        {/* SplineViewers removed */}
+        <video controls width="100%" height="100%">
+        <source src="/images/intro.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
       </div>
       <div className="rotating-text-container">
-        <div className="rotating-text">Welcome To Groks Labratory!</div>
-      
+        <div className="rotating-text">Welcome To Groks Laboratory!</div>
       </div>
- 
-      <div className="rotating-text-container">
-        <div className="rotating-text">BSC | 0xce3559f5B5fc02b1cEc6212D1FCEC65E080D8C66</div>
-      
-      </div>
-     
     </>
   );
 };
