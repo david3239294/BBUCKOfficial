@@ -62,11 +62,8 @@ const SplineObj: NextPage = () => {
         </style>
       </Head>
       <div id="spline-container">
-        {/* SplineViewers removed */}
-        <video controls width="100%" height="100%">
-        <source src="/images/intro.mp4" type="video/mp4" />
-  Your browser does not support the video tag.
-</video>
+        {/* Replace video with image */}
+        <img src="/images/logo.jpg" alt="Description of the image" style={{ width: '100%', height: '100%' }} />
       </div>
       <div className="rotating-text-container">
         <div className="rotating-text">Welcome To Groks Laboratory!</div>

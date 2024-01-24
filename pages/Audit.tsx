@@ -22,19 +22,19 @@ const Audit : NextPage = () => {
       <div className="z-0 h-screen">
         <SplineObj
          
-         scene={"./spline/sceneDACCORD.splinecode"}
+         scene={"./spline/cloner_cube_.spline"}
         />
       </div>
       <div className="absolute flex flex-col w-full gap-5 px-5 text-white h-fit lg:w-3/5 xl:w-1/2 left-2 sm:left-32 top-2 sm:top-10 z-100 sm:gap-6 sm:px-0">
         <div
           className={`ml-16 sm:ml-0 text-3xl md:text-4xl xl:text-5xl animated-heading bold md:mb-10 ${spaceBoards.className}`}
         >
-         GrokLabs Audits+ KYC
+         GrokLabs Audits + KYC
         </div>
       
         <p className={tasaOrbiter.className}>
   <a href="https://github.com/MonstaAudit/Audit-Reports/blob/main/GrokLabs_GrokLabs_Audit.pdf" target="_blank" rel="noopener noreferrer">
-   Check Audit Here
+   Check the official Audit Here
   </a>
 
 </p>
