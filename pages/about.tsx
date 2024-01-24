@@ -52,7 +52,7 @@ const About: NextPage = () => {
             Join Telegram Here
           </button>
         </a>
-        <a href="Just kidden! , coming Soon!" target="_blank" rel="noopener noreferrer">
+        <a href="https://grokslaboratorystaking.netlify.app/" target="_blank" rel="noopener noreferrer">
           <button
             className={`resume-button h-fit w-fit px-5 py-2 text-md text-accent shadow-md font-semibold mb-3 ${spaceBoards.className}`}
             onMouseEnter={() => playSnap()}
