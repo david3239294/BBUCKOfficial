@@ -23,7 +23,7 @@ const Nft: NextPage = () => {
         <div>
           {/* Use a regular HTML link to open the external webpage */}
           <a href={externalWebpageUrl} target="_blank" rel="noopener noreferrer">
-            View Our OpenSea Collection
+            View Our OpenSea Collection Here
           </a>
         </div>       
       </div>
