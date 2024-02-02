@@ -18,9 +18,7 @@ const Nft: NextPage = () => {
         <div style={{ fontSize: "3rem", fontFamily: "Arial, sans-serif", textShadow: "0 0 10px #00fff4, 0 0 20px #00fff4, 0 0 30px #00fff4, 0 0 40px #00fff4" }}>
           Check Out Our Cool Nfts
         </div>
-
-        {/* You may want to keep this if it's relevant to your design */}
-        {/* <SplineObj scene="./spline/cloner_cube_.spline" /> */}
+        
         
         <div>
           {/* Use an iframe to embed the external webpage */}
