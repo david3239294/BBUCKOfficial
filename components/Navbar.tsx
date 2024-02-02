@@ -19,9 +19,11 @@ const Navbar = () => {
     { name: "Home", href: "/", icon: faHouseChimney },
     { name: "About", href: "/about", icon: faStop },
     { name: "RoadMap", href: "/work", icon: faChartPie },
-    { name: "Whitepaper", href: "/projects", icon: faCubes },
+    { name: "Whitepaper", href: "/projects", icon: faPenFancy },
     { name: "Tokenomics", href: "/contact", icon: faCubes },
-    { name: "Audit+KYC", href: "/Audit", icon: faCubes },
+    { name: "Audit+KYC", href: "/Audit", icon: faStop },
+    { name: "Nfts", href: "/Nft", icon: faCubes },
+    { name: "Meet The Team", href: "/Meet", icon: faMusic },
   ];
   const bgMusicSfx = "./sounds/RoadsideFlowers.mp3";
   const [isShownHoverContent, setIsShownHoverContent] = useState<boolean>(false);

@@ -52,16 +52,7 @@ const About: NextPage = () => {
             Join Telegram Here
           </button>
         </a>
-        <a href="https://grokslaboratorystaking.netlify.app/" target="_blank" rel="noopener noreferrer">
-          <button
-            className={`resume-button h-fit w-fit px-5 py-2 text-md text-accent shadow-md font-semibold mb-3 ${spaceBoards.className}`}
-            onMouseEnter={() => playSnap()}
-            onMouseLeave={() => stopSnap()}
-            onClick={() => playConfirm()}
-          >
-           Stake Your GrokLabs Here!
-          </button>
-        </a>
+       
       </div>
       <div className="absolute bottom-0 right-0 flex-col flex-grow hidden w-1/2 h-screen lg:flex flex-end">
         <Canvas/>

@@ -63,6 +63,8 @@ const Hamburger = () => {
     { name: "Tokenomics", href: "/contact", icon: faChartPie },
     { name: "Whitepaper", href: "/projects", icon: faCubes },
     { name: "Audit+KYC", href: "/Audit", icon: faCubes },
+    { name: "Nfts", href: "/Nft", icon: faCubes },
+    { name: "Meet The Dev", href: "/Meet", icon: faCubes },
     
   ];
   return (
