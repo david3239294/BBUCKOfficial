@@ -15,6 +15,9 @@ const Nft: NextPage = () => {
       </Head>
 
       <div className="flex flex-col items-center justify-center h-screen">
+        {/* Banner Image */}
+        <img src="/images/banner.jpg" alt="Banner Image" style={{ maxWidth: "100%", height: "auto" }} />
+
         {/* Neon glow header */}
         <div style={{ fontSize: "3rem", fontFamily: "Arial, sans-serif", textShadow: "0 0 10px #00fff4, 0 0 20px #00fff4, 0 0 30px #00fff4, 0 0 40px #00fff4" }}>
           Check Out Our Cool Nfts

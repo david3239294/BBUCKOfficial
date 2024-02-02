@@ -257,7 +257,7 @@ class NextNProgress extends React.Component<Props> {
 
   componentDidMount() {
     NProgress.configure({
-      template: '<video autoPlay loop muted playsInline id="load-canvas" src="./images/loading-gif.webm" class="myVideo"></video><div class="bar" role="bar"><div class="peg"></div></div><div class="logo-center"><div class="contemplating">Preparing Boosters......</div></div><img class="SB-logo" src="./images/Logo-SB.png"/><div class="loader"><span>L</span><span>O</span><span>A</span><span>D</span><span>I</span><span>N</span><span>G</span><div class="covers"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div></div>',
+      template: '<video autoPlay loop muted playsInline id="load-canvas" src="./images/loading-gif.webm" class="myVideo"></video><div class="bar" role="bar"><div class="peg"></div></div><div class="logo-center"><div class="contemplating">Preparing Boosters......</div></div><img class="SB-logo" src="./images/tube.gif"/><div class="loader"><span>L</span><span>O</span><span>A</span><span>D</span><span>I</span><span>N</span><span>G</span><div class="covers"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div></div>',
       speed:300
     });
 
