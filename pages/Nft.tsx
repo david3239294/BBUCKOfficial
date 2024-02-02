@@ -1,8 +1,9 @@
 import Head from "next/head";
-import Link from "next/link";
 import { NextPage } from "next";
 
 const Nft: NextPage = () => {
+  const externalWebpageUrl = "https://opensea.io/GroksLaboratory"; // Replace with the URL of the webpage you want to display
+
   return (
     <>
       <Head>
@@ -19,10 +20,9 @@ const Nft: NextPage = () => {
           Check Out Our Cool Nfts
         </div>
         
-        
         <div>
           {/* Use an iframe to embed the external webpage */}
-          <iframe src="https://opensea.io/GroksLaboratory" width="100%" height="100%" frameBorder="0" />
+          <iframe src={externalWebpageUrl} width="100%" height="100%" frameBorder="0" />
         </div>       
       </div>
     </>
