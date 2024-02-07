@@ -22,7 +22,7 @@ const YourComponent: React.FC = () => (
       {/* Voltichange Widget with neon glow effect */}
       <div style={{ boxShadow: "0 0 20px #00fff4, 0 0 40px #00fff4, 0 0 60px #00fff4, 0 0 80px #00fff4", borderRadius: "10px", overflow: "hidden" }}>
         <iframe
-          src="https://voltichange.net/api/widget/?chain=56&darktheme=true&tokenin=Native&tokenout=0xce3559f5B5fc02b1cEc6212D1FCEC65E080D8C66&slippage=1"
+          src="https://voltichange.net/api/widget/?chain=56&darktheme=true&tokenin=Native&tokenout=0xaFfAcd3E1524AcB6C6C589d0A3c3A498B756AfC1&slippage=1"
           frameBorder="0"
           className="voltichange-widget"
         ></iframe>
