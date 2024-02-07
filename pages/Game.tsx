@@ -33,7 +33,6 @@ const Game: NextPage = () => {
   
           <div>
             <p className={tasaOrbiter.className}>
-              Welcome to the Official Preview of our P2E game! Much time and work are needed for completion. Love playing games? Earn $GrokLabs while slaying aliens that attack you! More developments and adjustments will take place; this will be the only release at this time. Please stay tuned and continue to follow the project for awesome stuff to come!
             </p>
   
             <p className="hidden w-full h-5 sm:block"></p>
