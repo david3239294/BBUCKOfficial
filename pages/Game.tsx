@@ -37,16 +37,7 @@ const Game: NextPage = () => {
   
             <p className="hidden w-full h-5 sm:block"></p>
   
-            <a href="https://t.me/GrokLabsOfficial" target="_blank" rel="noopener noreferrer">
-              <button
-                className={`resume-button h-fit w-fit px-5 py-2 text-md text-accent shadow-md font-semibold mb-3 ${spaceBoards.className}`}
-                onMouseEnter={() => playSnap()}
-                onMouseLeave={() => stopSnap()}
-                onClick={() => playConfirm()}
-              >
-                Join Telegram Here
-              </button>
-            </a>
+           
           </div>
   
           <div className="absolute bottom-0 right-0 flex-col flex-grow hidden w-1/2 h-screen lg:flex flex-end">
