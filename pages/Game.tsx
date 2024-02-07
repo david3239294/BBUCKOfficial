@@ -14,18 +14,18 @@ const Game: NextPage = () => {
   return (
     <>
       <Head>
-        <title>MiniGame | GrokLabs</title>
-        <meta
-          name="description"
-          content="MiniGame | GrokLabs"
-        />
-      </Head>
-  
-      <div className="z-0 h-screen">
-        <SplineObj
-          scene={"./spline/3_d_third_person_shooter_game.spline"} {/* Update the file extension if necessary */}
-        />
-      </div>
+  <title>MiniGame | GrokLabs</title>
+  <meta
+    name="description"
+    content="MiniGame | GrokLabs"
+  />
+</Head>
+
+<div className="z-0 h-screen">
+  <SplineObj
+    scene={"./spline/3_d_third_person_shooter_game.png"} // Update the file extension if necessary
+  />
+</div>
   
       <div className="absolute flex flex-col w-full gap-5 px-5 text-white h-fit lg:w-3/5 xl:w-1/2 left-2 sm:left-32 top-2 sm:top-10 z-100 sm:gap-6 sm:px-0">
         <div className={`ml-16 sm:ml-0 text-3xl md:text-4xl xl:text-5xl animated-heading bold md:mb-10 ${spaceBoards.className}`}>
