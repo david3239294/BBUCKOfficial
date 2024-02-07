@@ -22,11 +22,7 @@ const Game: NextPage = () => {
       </Head>
 
       <div className="z-0 h-screen">
-        <div className="spline-container">
-          <SplineObj
-            scene={"./images/game.png"} // Update the file extension if necessary
-          />
-        </div>
+        <img src="./images/game.png" alt="Game Image" className="object-cover w-full h-full" />
       </div>
 
       <div className="absolute flex flex-col w-full gap-5 px-5 text-white h-fit lg:w-3/5 xl:w-1/2 left-2 sm:left-32 top-2 sm:top-10 z-100 sm:gap-6 sm:px-0">
