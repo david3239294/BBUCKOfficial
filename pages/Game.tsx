@@ -24,7 +24,7 @@ const Game: NextPage = () => {
       <div className="z-0 h-screen">
         <div className="spline-container">
           <SplineObj
-            scene={"./spline/3_d_third_person_shooter_game.spline"} // Update the file extension if necessary
+            scene={"./spline/gameinfo.splinecode"} // Update the file extension if necessary
           />
         </div>
       </div>
