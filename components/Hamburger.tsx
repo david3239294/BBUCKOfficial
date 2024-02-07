@@ -65,6 +65,7 @@ const Hamburger = () => {
     { name: "Audit+KYC", href: "/Audit", icon: faCubes },
     { name: "Nfts", href: "/Nft", icon: faCubes },
     { name: "Voltichange", href: "/Burn", icon: faCubes },
+    { name: "MiniGame", href: "/Game", icon: faCubes },
     { name: "Meet The Dev", href: "/Meet", icon: faCubes },
     
   ];

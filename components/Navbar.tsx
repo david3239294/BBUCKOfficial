@@ -24,6 +24,7 @@ const Navbar = () => {
     { name: "Audit+KYC", href: "/Audit", icon: faStop },
     { name: "Nfts", href: "/Nft", icon: faCubes },
     { name: "Voltichange", href: "/Burn", icon: faCubes },
+    { name: "MiniGame", href: "/Game", icon: faCubes },
     { name: "Meet The Team", href: "/Meet", icon: faMusic },
   ];
   const bgMusicSfx = "./sounds/RoadsideFlowers.mp3";
