@@ -37,7 +37,7 @@ const About: NextPage = () => {
         </p>
        
         <p className={tasaOrbiter.className}>
-          So, Embrace the fusion of GrokLab&apos;s playful charm and Grokinu&apos;s Fiery heart.
+          Embrace the fusion of GrokLab&apos;s playful charm and Grokinu&apos;s Fiery heart.
           Join the GrokLabs revolution and embark on a journey that blends humor, Money generating, and financial empowerment into one extraordinary coin.
           <br />
         </p>
