@@ -79,7 +79,6 @@ export const workData = [
                 `,
        
     },
-    
     {
         role: 'Quarter 4',
         duration: '2024',
