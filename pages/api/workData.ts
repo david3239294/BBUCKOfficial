@@ -2,7 +2,7 @@ export const workData = [
     {
         role: 'Quarter 1',
         duration: '2024',
-        image: 'Web3ConfIndia23.png',
+        image: 'Check.png',
         details: `Launch the GrokLabs Official Token on Binance Smart Chain.
                   Initiate marketing campaigns with influencers and community engagement for widespread recognition.
                  `,
@@ -12,7 +12,7 @@ export const workData = [
     {
         role: 'Quarter 1',
         duration: '2024',
-        image: 'Web3ConfIndia23.png',
+        image: 'Check.png',
         details: 
         `Expand token utility by integrating with decentralized finance (DeFi) protocols.
                   Establish partnerships with other crypto projects for cross-promotion and increased adoption.`,
@@ -23,7 +23,7 @@ export const workData = [
     {
         role: 'Quarter 1',
         duration: '2024',
-        image: 'Web3ConfIndia23.png',
+        image: 'Check.png',
         details: 
         `Partnerships to empower the community to more earnings in staking,dApp Development and enhanced marketing.`,
       
@@ -33,7 +33,7 @@ export const workData = [
     {
         role: 'Quarter 2',
         duration: '2024',
-        image: 'Web3ConfIndia23.png',
+        image: 'Check.png',
         details: `Implement governance features to empower the community in decision-making.
                  initiate random buyback and token burns to create scarcity and value appreciation.`,
      
@@ -41,7 +41,7 @@ export const workData = [
     {
         role: 'Quarter 2',
         duration: '2024',
-        image: 'Web3ConfIndia23.png',
+        image: 'Check.png',
         details: `Launch a user-friendly and intuitive decentralized application (dApp) for enhanced user interaction.
                 `,
        
@@ -49,16 +49,16 @@ export const workData = [
     {
         role: 'Quarter 2',
         duration: '2024',
-        image: 'Web3ConfIndia23.png',
-        details: `Appy for CoinGecko And CoinMarketCap Listing! .
-        start the NFT development
+        image: 'Check.png',
+        details: `Release first batch of 100 NFTs
+        
                 `,
        
     },
     {
         role: 'Quarter 3',
         duration: '2024',
-        image: 'Web3ConfIndia23.png',
+        image: 'Pending.png',
         details: `Initiate MASSIVE marketing Campaign with severl well-known influencers,call groups and numerous adds on popular websites!.
                 `,
        
@@ -66,16 +66,24 @@ export const workData = [
     {
         role: 'Quarter 3',
         duration: '2024',
-        image: 'Web3ConfIndia23.png',
-        details: `NFT release for the public to view! .
+        image: 'Pending.png',
+        details: `TO BE ANNOUNCED! .
                 `,
        
     },
     {
         role: 'Quarter 4',
         duration: '2024',
-        image: 'Web3ConfIndia23.png',
+        image: 'Pending.png',
         details: `TO BE ANNOUNCED! .
+                `,
+       
+    }
+    {
+        role: 'Quarter 4',
+        duration: '2024',
+        image: 'MOON.png',
+        details: `Destination, MOOON! .
                 `,
        
     }
