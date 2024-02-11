@@ -22,7 +22,7 @@ const Game : NextPage = () => {
       <div className="z-0 h-screen">
         <SplineObj
          
-         scene={"./spline/3_d_game.spline"}
+         scene={"./spline/sceneGAME.splinecode"}
         />
       </div>
       <div className="absolute flex flex-col w-full gap-5 px-5 text-white h-fit lg:w-3/5 xl:w-1/2 left-2 sm:left-32 top-2 sm:top-10 z-100 sm:gap-6 sm:px-0">
