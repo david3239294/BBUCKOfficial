@@ -78,7 +78,8 @@ export const workData = [
         details: `TO BE ANNOUNCED! .
                 `,
        
-    }
+    },
+    
     {
         role: 'Quarter 4',
         duration: '2024',
