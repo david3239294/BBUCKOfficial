@@ -23,6 +23,7 @@ const Navbar = () => {
     { name: "Tokenomics", href: "/contact", icon: faCubes },
     { name: "Audit+KYC", href: "/Audit", icon: faStop },
     { name: "Nfts", href: "/Nft", icon: faCubes },
+    { name: "Our Partners", href: "/Partners", icon: faCubes },
     { name: "Voltichange", href: "/Burn", icon: faCubes },
     { name: "MiniGame", href: "/Game", icon: faCubes },
     { name: "Meet The Team", href: "/Meet", icon: faMusic },
