@@ -11,34 +11,18 @@ interface Partner {
 
 const Partners: NextPage = () => {
   const partners: Partner[] = [
-    {
-      name: "RichPigz",
-      image: "/images/RP.jpg", // Replace with your image path
-      websiteLink: "Www.CosmicRichPigz.com",
-      telegramLink: "https://t.me/Cosmic_Rich_BSC_Pigz",
-    },
-    {
-        name: "The WolfPack",
-        image: "/images/Wolf.jpg", // Replace with your image path
-        websiteLink: "https://www.the-wolfpack.eu",
-        telegramLink: "https://t.me/thewolfpack_bsc",
-      },
-      {
-        name: "High As A Giraffes Ass",
-        image: "/images/HAAGA.jpg", // Replace with your image path
-        websiteLink: "http://www.highasagiraffesass420.com",
-        telegramLink: "https://t.me/HighAsAGiraffesAss_Official",
-      },
+    
+    
     // Add more partners as needed
   ];
 
   return (
     <>
       <Head>
-        <title>Partners | GrokLabs</title>
+        <title>Soon | GrokLabs</title>
         <meta
           name="description"
-          content="Description of your partners or partnerships."
+          content="Coming Soon!"
         />
       </Head>
 
@@ -51,7 +35,7 @@ const Partners: NextPage = () => {
         />
 
         {/* Partners Section */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
           {partners.map((partner, index) => (
             <div key={index} style={{ marginTop: "20px" }}>
               {/* Image with links underneath */}

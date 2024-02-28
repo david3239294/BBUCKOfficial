@@ -1,6 +1,5 @@
 import Head from 'next/head';
 import { NextPage } from 'next';
-import { useEffect } from 'react';
 
 const SplineObj: NextPage = () => {
   return (
@@ -14,8 +13,7 @@ const SplineObj: NextPage = () => {
         <meta name="description" content="Home | GrokLabs" />
         <style>
           {`
-            body,
-            html {
+            body, html {
               margin: 0;
               padding: 0;
               height: 100%;
@@ -23,6 +21,7 @@ const SplineObj: NextPage = () => {
               justify-content: center;
               align-items: center;
             }
+
             #spline-container {
               width: 70vw;
               height: 100vh;
@@ -33,6 +32,7 @@ const SplineObj: NextPage = () => {
               justify-content: space-between;
               margin: 0 auto; /* Center horizontally */
             }
+
             .rotating-text-container {
               display: flex;
               align-items: center;
@@ -41,32 +41,50 @@ const SplineObj: NextPage = () => {
               height: 50vh;
               background-color: black;
             }
+
             .rotating-text {
               font-size: 48px;
-              animation: glowText 2s infinite alternate;
-              /* Stop rotation */
-              animation-play-state: paused;
+              animation: neonWave 2s infinite linear alternate;
               /* Other styles */
             }
-            @keyframes glowText {
-              from {
-                color: blue;
-                text-shadow: 0 0 10px blue, 0 0 20px blue, 0 0 30px blue;
+
+            @keyframes neonWave {
+              0% {
+                color: #00f;
+                text-shadow: 0 0 10px #00f, 0 0 20px #00f, 0 0 30px #00f;
               }
-              to {
-                color: red;
-                text-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px red;
+              25% {
+                color: #0f0;
+                text-shadow: 0 0 10px #0f0, 0 0 20px #0f0, 0 0 30px #0f0;
+              }
+              50% {
+                color: #f00;
+                text-shadow: 0 0 10px #f00, 0 0 20px #f00, 0 0 30px #f00;
+              }
+              75% {
+                color: #ff0;
+                text-shadow: 0 0 10px #ff0, 0 0 20px #ff0, 0 0 30px #ff0;
+              }
+              100% {
+                color: #00f;
+                text-shadow: 0 0 10px #00f, 0 0 20px #00f, 0 0 30px #00f;
               }
             }
-        `}
+         `}
         </style>
       </Head>
+
       <div id="spline-container">
         {/* Replace video with image */}
-        <img src="/images/logo.jpg" alt="Description of the image" style={{ width: '100%', height: '100%' }} />
       </div>
+
       <div className="rotating-text-container">
         <div className="rotating-text">Welcome To Groks Laboratory!</div>
+      </div>
+
+      <div id="new-website-container">
+        {/* Use an iframe to show another website */}
+        <iframe src="https://65dfab76125a317618823451--prismatic-pixie-68e742.netlify.app" title="GrokBot.AI" style={{ width: '95%', height: '750px', border: '0px', marginLeft: '4%' }}></iframe>
       </div>
     </>
   );

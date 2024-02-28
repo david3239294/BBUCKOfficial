@@ -97,8 +97,8 @@ const Navbar = () => {
         &copy;
         {isShownHoverContent && (
           <div className="flex flex-col">
-            <div className="text-xs">GrokLabs</div>
-            <div className="flex items-end justify-start gap-1 text-xs align-baseline"> <div style={{ fontSize: "0.6rem" }}>2023</div></div>
+            <div className="text-xs">Groks Laboratory</div>
+            <div className="flex items-end justify-start gap-1 text-xs align-baseline"> <div style={{ fontSize: "0.6rem" }}>2024</div></div>
           </div>
         )}
       </div>

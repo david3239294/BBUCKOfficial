@@ -28,10 +28,10 @@ const About: NextPage = () => {
         <div
           className={`ml-16 sm:ml-0 text-3xl md:text-4xl xl:text-5xl animated-heading bold md:mb-10 ${spaceBoards.className}`}
         >
-          About GrokLabs
+          About Groks Laboratory
         </div>
         <p className={tasaOrbiter.className}>
-          Step into a world where internet memes meet Crypto legends, and creativity meets the thrill of Winning. Introducing GrokLabs, a pioneering cryptocurrency inspired by the iconic meme sensation, Grokinu. This extraordinary blend captures the spirit of humor, online culture, and excellence in one unique coin.
+          Welcome to  a world where internet memes meet Crypto legends, and creativity meets the thrill of Winning. Introducing GrokLabs, a pioneering cryptocurrency inspired by the iconic meme sensation, Grokinu. This extraordinary blend captures the spirit of humor, online culture, and excellence in one unique coin.
           
          
         </p>
