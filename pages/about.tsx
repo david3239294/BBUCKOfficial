@@ -31,16 +31,48 @@ const About: NextPage = () => {
           About Groks Laboratory
         </div>
         <p className={tasaOrbiter.className}>
-          Welcome to  a world where internet memes meet Crypto legends, and creativity meets the thrill of Winning. Introducing GrokLabs, a pioneering cryptocurrency inspired by the iconic meme sensation, Grokinu. This extraordinary blend captures the spirit of humor, online culture, and excellence in one unique coin.
+         
           
          
         </p>
        
         <p className={tasaOrbiter.className}>
-          Embrace the fusion of GrokLab&apos;s playful charm and Grokinu&apos;s Fiery heart.
-          Join the GrokLabs revolution and embark on a journey that blends humor, Money generating, and financial empowerment into one extraordinary coin.
-          <br />
-        </p>
+  🚀 Hey there, Crypto Enthusiasts and Blockchain Believers! 🌟
+  <br />
+  Are you ready for a journey that's already setting the crypto world on fire? Let's take a moment to appreciate the incredible milestones achieved and the exciting future that awaits with Groklabs! 🌈
+  <br />
+  <br />
+  🎉 Launched on the 19th of January, Groklabs has been on a relentless pursuit of innovation and excellence. Here's a quick recap of what we've achieved in such a short span:
+  <br />
+  <ul>
+    <li>Fairlaunch: We kicked things off with a bang, ensuring equal opportunities for all.</li>
+    <li>Staking Contract: Our staking contract is up and running, rewarding our early supporters.</li>
+    <li>NFT Collection: Dive into the world of digital art with our exclusive NFT collection.</li>
+    <li>300 Organic Followers on X: Our community is growing, thanks to genuine engagement and support.</li>
+  </ul>
+  <br />
+  But hold on, the journey doesn't end here! 🚀
+  <br />
+  <br />
+  🔜 Still to Come: Grokswap - Get ready for our game-changing decentralized exchange platform. The future of trading is here!
+  <br />
+  <br />
+  Why Groklabs? It's simple:
+  <br />
+  <ul>
+    <li>Based Dev: Our developers are not just skilled; they're visionaries in the blockchain space.</li>
+    <li>Based Team: A team that's as passionate about our project as our community.</li>
+    <li>Based Community: Our strength lies in our community. Engaged, supportive, and ready for the moon!</li>
+  </ul>
+  <br />
+  Join us as we continue to break barriers and set new standards in the crypto world. With Groklabs, you're not just investing; you're becoming part of a movement. A movement towards a decentralized, fair, and innovative future. 🌟
+  <br />
+  <br />
+  Don't miss out on this incredible journey. Let's Grok the crypto world together! 🌐✨
+  <br />
+  <br />
+  #Groklabs #CryptoRevolution #JoinUsNow
+</p>
         <p className="hidden w-full h-5 sm:block"></p>
         <a href="https://t.me/GrokLabsOfficial" target="_blank" rel="noopener noreferrer">
           <button
